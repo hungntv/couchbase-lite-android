@@ -21,8 +21,9 @@ import com.couchbase.litecore.C4Constants;
 
 /**
  * A Couchbase Lite database.
+ * Edited by HungNTV
  */
-public final class Database extends AbstractDatabase {
+public class Database extends AbstractDatabase {
     /**
      * Construct a  AbstractDatabase with a given name and database config.
      * If the database does not yet exist, it will be created, unless the `readOnly` option is used.

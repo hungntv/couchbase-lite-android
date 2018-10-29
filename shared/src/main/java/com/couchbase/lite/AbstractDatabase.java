@@ -681,7 +681,7 @@ abstract class AbstractDatabase {
 
     //////// DATABASES:
 
-    void mustBeOpen() {
+    public void mustBeOpen() {
         if (c4db == null)
             throw new IllegalStateException("Attempt to perform an operation on a closed database");
     }
